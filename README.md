@@ -1,186 +1,438 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | DevTech Solutions</title>
 
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: var(--text-color);
-            background-color: var(--bg-color);
-            margin: 0;
-            padding: 0;
+    <style>
+        :root{
+            --primary:#1565C0;
+            --accent:#1976D2;
+            --background:#f5f7fb;
+            --card:#ffffff;
+            --text:#333333;
+            --light:#6b7280;
+            --border:#e5e7eb;
         }
 
-        .container {
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 0 20px;
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
         }
 
-        .policy-card {
-            background: var(--card-bg);
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        body{
+            font-family:Segoe UI,Tahoma,Geneva,Verdana,sans-serif;
+            background:var(--background);
+            color:var(--text);
+            line-height:1.7;
         }
 
-        header {
-            border-bottom: 2px solid var(--bg-color);
-            margin-bottom: 30px;
-            padding-bottom: 20px;
+        .container{
+            max-width:950px;
+            margin:40px auto;
+            padding:20px;
         }
 
-        h1 {
-            color: var(--primary-color);
-            margin: 0 0 10px 0;
-            font-size: 28px;
+        .card{
+            background:var(--card);
+            border-radius:14px;
+            padding:40px;
+            box-shadow:0 10px 30px rgba(0,0,0,.08);
         }
 
-        .effective-date {
-            color: #7f8c8d;
-            font-size: 0.9em;
-            font-style: italic;
+        header{
+            text-align:center;
+            border-bottom:2px solid var(--border);
+            padding-bottom:25px;
+            margin-bottom:35px;
         }
 
-        h2 {
-            color: var(--primary-color);
-            font-size: 20px;
-            margin-top: 30px;
-            border-left: 4px solid var(--accent-color);
-            padding-left: 15px;
+        h1{
+            color:var(--primary);
+            font-size:2.2rem;
+            margin-bottom:10px;
         }
 
-        h3 {
-            color: var(--primary-color);
-            font-size: 18px;
+        .subtitle{
+            color:var(--light);
+            font-size:.95rem;
         }
 
-        p, li {
-            margin-bottom: 15px;
-            text-align: justify;
+        h2{
+            color:var(--primary);
+            margin-top:35px;
+            margin-bottom:15px;
+            border-left:5px solid var(--accent);
+            padding-left:12px;
+            font-size:1.35rem;
         }
 
-        ul {
-            padding-left: 20px;
+        h3{
+            color:var(--primary);
+            margin-top:20px;
+            margin-bottom:10px;
+            font-size:1.1rem;
         }
 
-        a {
-            color: var(--accent-color);
-            text-decoration: none;
+        p{
+            margin-bottom:15px;
+            text-align:justify;
         }
 
-        a:hover {
-            text-decoration: underline;
+        ul{
+            margin:15px 0 15px 25px;
         }
 
-        .contact-box {
-            background-color: #eef7fd;
-            padding: 20px;
-            border-radius: 8px;
-            margin-top: 30px;
+        li{
+            margin-bottom:10px;
         }
 
-        footer {
-            text-align: center;
-            margin-top: 40px;
-            padding-bottom: 40px;
-            color: #95a5a6;
-            font-size: 0.8em;
+        .note{
+            background:#eef6ff;
+            border-left:5px solid var(--accent);
+            padding:18px;
+            border-radius:8px;
+            margin:20px 0;
         }
 
-        @media (max-width: 600px) {
-            .policy-card {
-                padding: 20px;
+        .contact{
+            background:#f3f8ff;
+            padding:25px;
+            border-radius:10px;
+            margin-top:30px;
+        }
+
+        a{
+            color:var(--accent);
+            text-decoration:none;
+        }
+
+        a:hover{
+            text-decoration:underline;
+        }
+
+        footer{
+            margin-top:40px;
+            text-align:center;
+            color:#777;
+            font-size:.9rem;
+            border-top:1px solid var(--border);
+            padding-top:20px;
+        }
+
+        @media(max-width:768px){
+
+            .container{
+                margin:20px auto;
+                padding:15px;
             }
-            h1 { font-size: 22px; }
-            .container { margin: 20px auto; }
+
+            .card{
+                padding:25px;
+            }
+
+            h1{
+                font-size:1.8rem;
+            }
+
+            h2{
+                font-size:1.2rem;
+            }
         }
     </style>
+
 </head>
 <body>
 
 <div class="container">
-    <div class="policy-card">
-        <header>
-            <h1>Privacy Policy</h1>
-            <p><strong>Free Marriage Biodata Maker</strong></p>
-            <p class="effective-date">Effective Date: July 8, 2026</p>
-        </header>
 
-        <section>
-            <h2>Introduction</h2>
-            <p>DevTech (or the developer of "Free Marriage Biodata Maker") respects your privacy and is committed to protecting it. This Privacy Policy explains how we handle any information when you use our Android mobile application "Free Marriage Biodata Maker" (the "App").</p>
-            <p>This App is designed to help users create marriage biodata (matrimonial profiles) locally on their device. We take privacy seriously, especially given the sensitive nature of personal and family information typically entered in such tools.</p>
-        </section>
+<div class="card">
 
-        <section>
-            <h2>Information We Collect</h2>
-            <p><strong>We do not collect, store, or transmit any personal data from users of the App.</strong></p>
-            <ul>
-                <li>All biodata information (such as name, photo, family details, education, contact info, horoscope, etc.) is entered by you and processed locally on your device.</li>
-                <li>Generated biodata (e.g., PDFs) are created and saved on your device only. No data is uploaded to our servers unless you explicitly choose to share it via device features (e.g., email, WhatsApp, or other apps you control).</li>
-                <li>We do not require account creation, login, or any registration to use the core features of the App.</li>
-            </ul>
+<header>
 
-            <h3>Analytics or Crash Reporting</h3>
-            <p>The App may use standard Google Play Services or Firebase tools (if integrated) solely for anonymous crash reporting and basic usage statistics to improve the App. These do not include any personal or biodata information.</p>
-        </section>
+<h1>Privacy Policy</h1>
 
-        <section>
-            <h2>How We Use Information</h2>
-            <p>Since no personal data is collected by us:</p>
-            <ul>
-                <li>There is no use, sharing, selling, or disclosure of your personal information to third parties by the developer.</li>
-                <li>Any third-party services (e.g., Google Play for distribution) follow their own privacy policies. Please review <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>.</li>
-            </ul>
-        </section>
+<p class="subtitle">
+<strong>Developer:</strong> DevTech Solutions
+</p>
 
-        <section>
-            <h2>Permissions</h2>
-            <p>The App may request standard Android permissions (e.g., storage access for saving PDFs, camera/gallery for adding photos). These are used only for local functionality within the App and are not used to collect data externally.</p>
-        </section>
+<p class="subtitle">
+Effective Date: July 9, 2026<br>
+Last Updated: July 9, 2026
+</p>
 
-        <section>
-            <h2>Data Security</h2>
-            <ul>
-                <li>All data remains under your control on your device.</li>
-                <li>We recommend securing your device with standard practices (screen lock, etc.) since biodata often contains sensitive personal and family information.</li>
-                <li>If the App includes any optional cloud features in the future, we will update this policy and implement appropriate security measures (e.g., encryption).</li>
-            </ul>
-        </section>
+</header>
 
-        <section>
-            <h2>Children's Privacy</h2>
-            <p>The App is not directed at children under 13 (or the applicable age in your region). We do not knowingly collect data from children.</p>
-        </section>
+<div class="note">
+This Privacy Policy applies to all mobile applications, websites, and digital services developed and published by <strong>DevTech Solutions</strong>, unless a particular product provides its own privacy policy.
+</div>
 
-        <section>
-            <h2>Your Rights and Choices</h2>
-            <ul>
-                <li><strong>Data Deletion:</strong> Since no data is stored by us, you can simply delete the App or generated files from your device.</li>
-                <li><strong>Contact Us:</strong> For any questions or concerns regarding privacy, contact us at: <a href="mailto:help.devtech.in@gmail.com">help.devtech.in@gmail.com</a>.</li>
-            </ul>
-        </section>
+<h2>1. Introduction</h2>
 
-        <section>
-            <h2>Changes to This Privacy Policy</h2>
-            <p>We may update this Privacy Policy from time to time. We will notify you of any material changes by updating the Effective Date and posting the new policy within the App or on our support channels.</p>
-        </section>
+<p>
+DevTech Solutions ("we", "our", or "us") respects your privacy and is committed to protecting it.
+This Privacy Policy explains how we collect, use, disclose, and safeguard information when you use any mobile application, website, or digital service developed by DevTech Solutions (collectively referred to as the "Services").
+</p>
 
-        <section class="contact-box">
-            <h2>Contact Information</h2>
-            <p><strong>Developer:</strong> DevTech<br>
-            <strong>Email:</strong> <a href="mailto:help.devtech.in@gmail.com">help.devtech.in@gmail.com</a></p>
-            <p style="font-size: 0.85em; color: #666;">This Privacy Policy is provided to meet Google Play's requirements for all apps, including those that do not collect personal or sensitive data.</p>
-        </section>
-    </div>
+<p>
+Not every DevTech Solutions application collects or uses every type of information described in this Privacy Policy. The information collected depends on the features available in the specific application you use.
+</p>
 
-    <footer>
-        &copy; 2026 DevTech. All rights reserved.
-    </footer>
+<h2>2. Information We Collect</h2>
+
+<h3>Information You Provide</h3>
+
+<p>
+Some Services allow you to voluntarily enter information necessary to use the application's features, such as:
+</p>
+
+<ul>
+<li>Name</li>
+<li>Photos</li>
+<li>Contact details</li>
+<li>Documents</li>
+<li>Personal notes</li>
+<li>Educational information</li>
+<li>Profile information</li>
+<li>Other content created by you</li>
+</ul>
+
+<p>
+Whenever possible, this information is processed and stored locally on your device.
+</p>
+
+<h3>Automatically Collected Information</h3>
+
+<p>
+Some applications may automatically collect limited technical information including:
+</p>
+
+<ul>
+<li>Device model</li>
+<li>Operating system version</li>
+<li>Application version</li>
+<li>Language settings</li>
+<li>Crash reports</li>
+<li>Anonymous usage statistics</li>
+<li>Advertising identifiers (where applicable)</li>
+</ul>
+
+<p>
+This information is used only to improve the stability, security, and performance of our Services.
+</p>
+
+<h3>Offline Applications</h3>
+
+<p>
+Many DevTech Solutions applications work entirely offline.
+For these applications:
+</p>
+
+<ul>
+<li>We do not collect personal information.</li>
+<li>We do not upload your files to our servers.</li>
+<li>No account or login is required unless cloud functionality is explicitly provided.</li>
+</ul>
+
+<h2>3. Local Data Storage</h2>
+
+<p>
+Many of our applications store your data only on your device.
+Files such as PDFs, reports, images, documents, and generated content remain on your device unless you choose to share them using services under your control.
+</p>
+
+<p>
+We do not have access to files stored locally on your device.
+</p>
+
+<h2>4. Analytics & Crash Reporting</h2>
+
+<p>
+Some Services may use trusted third-party services including:
+</p>
+
+<ul>
+<li>Google Play Services</li>
+<li>Firebase Analytics</li>
+<li>Firebase Crashlytics</li>
+</ul>
+
+<p>
+These services help improve application quality by identifying crashes and understanding anonymous usage patterns.
+</p>
+
+<h2>5. Artificial Intelligence Features</h2>
+
+<p>
+Some applications may include AI-powered features using third-party providers such as Google Gemini or other AI platforms.
+Information submitted to these services is processed only to provide the requested functionality and is handled according to the provider's privacy practices.
+</p>
+
+<h2>6. Advertising</h2>
+
+<p>
+Some free applications may display advertisements using providers such as Google AdMob.
+Advertising partners may collect limited information including advertising identifiers and device information according to their own privacy policies.
+Premium versions of our applications may not display advertisements.
+</p>
+
+<h2>7. How We Use Information</h2>
+
+<ul>
+<li>Provide requested functionality.</li>
+<li>Create documents or generated content.</li>
+<li>Improve application performance.</li>
+<li>Fix bugs and crashes.</li>
+<li>Maintain security.</li>
+<li>Comply with legal obligations.</li>
+</ul>
+
+<p>
+We never sell your personal information.
+</p>
+
+<h2>8. Sharing Information</h2>
+
+<p>
+We do not sell, rent, or trade your personal information.
+Information may only be shared:
+</p>
+
+<ul>
+<li>With trusted service providers required for application functionality.</li>
+<li>When required by law.</li>
+<li>To protect our legal rights.</li>
+<li>With your explicit consent.</li>
+</ul>
+
+<h2>9. Permissions</h2>
+
+<p>
+Depending on features used, applications may request permissions such as:
+</p>
+
+<ul>
+<li>Camera</li>
+<li>Photos & Media</li>
+<li>Storage</li>
+<li>Notifications</li>
+<li>Microphone</li>
+<li>Contacts</li>
+<li>Location</li>
+</ul>
+
+<p>
+Permissions are requested only when necessary and can be managed through your device settings.
+</p>
+
+<h2>10. Data Security</h2>
+
+<p>
+We use reasonable technical and administrative measures to protect information handled by our Services.
+Where applicable, communication with cloud services uses secure encrypted connections.
+However, no method of transmission or storage is completely secure.
+</p>
+
+<h2>11. Data Retention</h2>
+
+<p>
+For offline applications, your data remains on your device until you delete it.
+If a Service provides cloud storage, information is retained only as long as necessary to provide the Service or comply with legal obligations.
+</p>
+
+<h2>12. Children's Privacy</h2>
+
+<p>
+Our Services are not directed toward children under 13 years of age (or the applicable age in your jurisdiction).
+We do not knowingly collect personal information from children.
+</p>
+
+<h2>13. Your Rights</h2>
+
+<p>
+Depending on your jurisdiction and the Service used, you may have the right to:
+</p>
+
+<ul>
+<li>Access your information.</li>
+<li>Correct inaccurate information.</li>
+<li>Delete your information.</li>
+<li>Withdraw permissions.</li>
+<li>Request deletion of cloud-stored data (where applicable).</li>
+<li>Stop using the Service at any time.</li>
+</ul>
+
+<h2>14. Third-Party Services</h2>
+
+<p>
+Our applications may integrate third-party services including, but not limited to:
+</p>
+
+<ul>
+<li>Google Play</li>
+<li>Google Play Services</li>
+<li>Firebase</li>
+<li>Google AdMob</li>
+<li>Google Gemini</li>
+<li>Other third-party providers depending on the Service.</li>
+</ul>
+
+<p>
+These providers maintain their own Privacy Policies.
+</p>
+
+<h2>15. International Data Transfers</h2>
+
+<p>
+Some third-party services may process information on servers located outside your country.
+These providers implement appropriate safeguards to protect your information.
+</p>
+
+<h2>16. Data Safety</h2>
+
+<p>
+Each application published by DevTech Solutions includes its own Google Play Data Safety information.
+The specific data collected depends on the features of that application.
+This Privacy Policy provides general information applicable across all DevTech Solutions products.
+</p>
+
+<h2>17. Changes to This Privacy Policy</h2>
+
+<p>
+We may update this Privacy Policy from time to time.
+Changes become effective immediately upon publication with an updated "Last Updated" date.
+</p>
+
+<h2>18. Contact Us</h2>
+
+<div class="contact">
+
+<p><strong>Developer</strong><br>
+DevTech Solutions</p>
+
+<p><strong>Email</strong><br>
+<a href="mailto:help.devtech.in@gmail.com">help.devtech.in@gmail.com</a></p>
+
+</div>
+
+<footer>
+
+<p>
+This Privacy Policy applies to all applications, websites, and digital services developed and published by DevTech Solutions unless a product provides its own separate Privacy Policy.
+</p>
+
+<br>
+
+<p>
+&copy; 2026 DevTech Solutions. All Rights Reserved.
+</p>
+
+</footer>
+
+</div>
+
 </div>
 
 </body>
